@@ -13,6 +13,7 @@ function App() {
       <div className="App">
         <ComA/>
         <ComB/>
+        <Home></Home>
       </div>
     </Provider>
   );
