@@ -6,7 +6,7 @@ import {connect} from 'react-redux'
 class ComA extends React.Component{
   
   handleClick =() => {
-    console.log('ComA:', this.props)
+    console.log('ComA1:', this.props)
     this.props.sendAction()
   }
   
